@@ -1,6 +1,6 @@
 {
   "name": "alagarr",
-  "version": "0.0.0",
+  "version": "1.0.0-booni",
   "description": "Alagarr is a request-response helper library that removes the boilerplate from your Node.js serverless functions and helps make your code portable.",
   "author": "Marco Lüthy <marco.luethy@gmail.com> (https://github.com/adieuadieu)",
   "maintainers": [],
@@ -52,7 +52,6 @@
     "build": "tsc -d",
     "dev": "tsc -w",
     "prepublishOnly": "npm run lint && npm test && npm run security-check && npm run build",
-    "precommit": "lint-staged",
     "prettier": "prettier --write",
     "security-check": "nsp",
     "upgrade-dependencies": "yarn upgrade-interactive --latest --exact",
